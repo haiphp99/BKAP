@@ -18,13 +18,20 @@
   
   html {
     font-size: 1rem;
-    box-sizing: border-box;
   }
   
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: var(--color-white);
+    color: var(--color-secondary);
     line-height: 1.5;
     background-color: var(--color-white);
+  }
+  a {
+    text-decoration:none !important;
+    color: unset
+  }
+  ul{
+    list-style: none;
+    padding: 0;
   }
